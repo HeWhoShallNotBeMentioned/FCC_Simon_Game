@@ -17,3 +17,32 @@ body {
   border: solid 5px black;
   border-radius: 300px;
 }
+
+.pad {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 295px;
+  height: 295px;
+  border: solid 2px black;
+}
+
+.green {
+  background-color: limegreen;
+  border-radius: 300px 0 0 0;
+}
+
+.red {
+  background-color: red;
+  border-radius: 0 300px 0 0;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 300px;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 0 0 300px 0;
+}
