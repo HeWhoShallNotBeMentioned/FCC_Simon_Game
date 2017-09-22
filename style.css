@@ -25,6 +25,7 @@ body {
   width: 295px;
   height: 295px;
   border: solid 2px black;
+  z-index: 9;
 }
 
 .green {
@@ -45,4 +46,60 @@ body {
 .blue {
   background-color: blue;
   border-radius: 0 0 300px 0;
+}
+
+.controls {
+  width: 245px;
+  height: 245px;
+  background-color: #fff;
+  border-radius: 125px;
+  border: solid 2px black;
+  margin-left: 175px;
+  margin-top: 175px;
+  position: absolute;
+  z-index: 10;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.cluster {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.display {
+  background-color: black;
+  border: solid 1px grey;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+  height: 60px;
+  line-height: 60px;
+  width: 75px;
+}
+
+.start-btn, .strict-btn {
+  border: solid 2px black;
+  border-radius: 30px;
+  font-family: 'Inconsolata', monospace;
+  /*font-size: .9em;*/
+  height: 55px;
+  line-height: 55px;
+  margin: 0;
+  margin-left: 15px;
+  text-align: center;
+  width: 55px;
+}
+
+.start-btn {
+  background-color: red;
+}
+
+.strict-btn {
+  background-color: yellow;
 }
