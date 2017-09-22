@@ -86,8 +86,6 @@ body {
 .start-btn, .strict-btn {
   border: solid 2px black;
   border-radius: 30px;
-  font-family: 'Inconsolata', monospace;
-  /*font-size: .9em;*/
   height: 55px;
   line-height: 55px;
   margin: 0;
@@ -102,4 +100,18 @@ body {
 
 .strict-btn {
   background-color: yellow;
+}
+
+.outter-switch {
+  background-color: black;
+  border: solid 1px black;
+  height: 30px;
+  width: 60px;
+}
+
+.inner-switch {
+  background-color: gray;
+  height: 29px;
+  width: 30px;
+
 }
