@@ -35,9 +35,17 @@ body {
   border-radius: 300px 0 0 0;
 }
 
+.green-active {
+  background-color: darkgreen;
+}
+
 .red {
   background-color: red;
   border-radius: 0 300px 0 0;
+}
+
+.red-active {
+  background-color: darkred;
 }
 
 .yellow {
@@ -45,9 +53,17 @@ body {
   border-radius: 0 0 0 300px;
 }
 
+.yellow-active {
+  background-color: goldenrod;
+}
+
 .blue {
   background-color: blue;
   border-radius: 0 0 300px 0;
+}
+
+.blue-active {
+  background-color: darkblue;
 }
 
 .controls {
@@ -113,7 +129,7 @@ body {
 }
 
 .outter-switch {
-  background-color: black;
+  background-color: gray;
   border: solid 1px black;
   height: 30px;
   width: 60px;
@@ -123,4 +139,20 @@ body {
   background-color: gray;
   height: 29px;
   width: 30px;
+}
+
+.outter-active {
+  background-color: black;
+}
+
+.outter-inactive {
+  background-color: gray;
+}
+
+.inner-active {
+  background-color: black;
+}
+
+.inner-inactive {
+  background-color: gray;
 }
