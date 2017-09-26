@@ -8,7 +8,7 @@ const sounds = [
   'https://s3.amazonaws.com/freecodecamp/simonSound1.mp3', 'https://s3.amazonaws.com/freecodecamp/simonSound2.mp3', 'https://s3.amazonaws.com/freecodecamp/simonSound3.mp3', 'https://s3.amazonaws.com/freecodecamp/simonSound4.mp3'
   ];
 const colors = ["green", "red", "yellow", "blue"];
-const numStages = 4;
+const numStages = 20;
 
 
 $(document).ready(function(){
